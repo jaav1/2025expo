@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DoorInteraction : MonoBehaviour
 {
-    public Transform door; // Asigna aquí la puerta en el Inspector
+    public Transform door; //Asigna aquí la puerta en el Inspector
     public float openAngle = 90f; // Ángulo al que se abrirá la puerta
     public float speed = 2f; // Velocidad de apertura/cierre
     private bool isOpen = false; // Estado de la puerta
