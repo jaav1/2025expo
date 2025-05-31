@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f; // Velocidad de movimiento
+    public float speed = 2f; // Velocidad de movimiento
     public float jumpForce = 5f; // Fuerza del salto
-    public float mouseSensitivity = 100f; // Sensibilidad del mouse
+    public float mouseSensitivity = 10f; // Sensibilidad del mouse
     public Transform playerCamera; // Cámara del jugador
     private float verticalRotation = 0f; // Rotación vertical
     private Rigidbody rb; // Referencia al Rigidbody
